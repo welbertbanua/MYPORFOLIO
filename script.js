@@ -1,6 +1,6 @@
 // Optional: add real numbers to make your STAR results measurable, e.g. "Resolved 40+ support requests in 8 weeks."
 // Contact settings: paste your own Facebook profile link and a phone number you are comfortable sharing.
-const CONTACT={facebook:"https://www.facebook.com/",phone:""};
+const CONTACT={facebook:"https://www.facebook.com/welbertrayponbanua/",phone:""};
 const METRICS={m1:"",m2:""};
 for(const k in METRICS){if(METRICS[k]){const e=document.getElementById(k);e.textContent="Measured result: "+METRICS[k];e.hidden=false}}
 const $=id=>document.getElementById(id);
